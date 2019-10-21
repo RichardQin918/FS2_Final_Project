@@ -1,6 +1,9 @@
 body {
   background-color: #4b638c !important;
   font-Family: 'Helvetica' !important; }
+
+  .navbar-nav { flex-direction:row !important; } /*navbar stays horizontal on top*/
+  
   body .blue {
     background-color: #6f86ce; }
   body .yellow {
