@@ -1,0 +1,21 @@
+{
+  "name": "server_side",
+  "version": "1.0.0",
+  "description": "FSD2 final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run watch-css | nodemon server.js",
+    "build-css": "node-sass --include-path scss scss/style.scss   public/css/style.css",
+    "watch-css": "nodemon -e scss sass -x \"npm run build-css\""
+  },
+  "author": "Ziming Qin, Estella Yeung, Shermeen Kazi",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

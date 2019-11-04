@@ -1,14 +1,20 @@
-### This is Our Final Project for BCDV1006 ###
+### This is Our Final Project for BCDV1007 ###
 
 ## Description: ##
-It is a web alarm where you can set differnt alarm to trigger
+Based on our BCDV1006 final project, which is a web alarm where you can set differnt alarm to trigger.
+Now we introduced a basic server set up and routings between multiple pages.
+Introduced login page with 3 test usernames: Richard, Estella, Shermeen with password to by our first name in small letters
 
 ## Setup to run ##
 --please cd to root path of the project in terminal/bash shell
---run http-server . to view it locally
---you can also go to https://bcdv1006richard.netlify.com/ to view the website
+--run npm install
+--run npm run start and then go to localhost:8008 to view the proejct
 
 ## Operation and Testing ##
+
+
+
+
 To test metamask connection: 
 --view it with or without metamask opened
 To test clock functionality:
