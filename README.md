@@ -11,11 +11,16 @@ Introduced login page with 3 test usernames: Richard, Estella, Shermeen with pas
 --run npm run start and then go to localhost:8008 to view the proejct
 
 ## Operation and Testing ##
+##### To test login and logout: #####
+input any one of the following 3 users:
+username: Richard password: richard
+username: Estella password: estella
+username: Shermeen password: shermeen
 
+##### To test user profile #####
+after logged in, check if user page info changed or not
 
-
-
-To test metamask connection: 
+##### To test metamask connection: #####
 --view it with or without metamask opened
 To test clock functionality:
 --Set duplicate alarm
